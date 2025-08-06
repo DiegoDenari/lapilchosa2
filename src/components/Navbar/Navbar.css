@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+.navbar-categories {
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar-categories a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar-categories a:hover {
+  color: #000;
+}
+.cart-link {
+  font-size: 1.2rem;
+}
+
+.cart-widget {
+  position: relative;
+  font-size: 1.5rem;
+}
+.cart-widget span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+}

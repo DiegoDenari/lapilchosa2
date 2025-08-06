@@ -1,0 +1,13 @@
+.item-count {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quantity-controls button {
+  padding: 0.2rem 0.5rem;
+}
